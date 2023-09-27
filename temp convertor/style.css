@@ -1,0 +1,152 @@
+
+body { 
+    background-size: 100%;
+    background-position: center;
+    background: url("https://wallpapercave.com/wp/wp3980212.jpg");
+  }
+    .container { 
+    width: 450px;
+    height: 400px;
+    margin: 200px auto;
+    
+    }
+  .glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px 0px 0px 0px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.cglass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px 0px 20px 0px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 450px;
+    /* background: #003333; */
+    /* border-radius: 8px; */
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon{
+    font-size: 45px;
+    color: #fff;
+}
+
+h1{
+    color:#2c87dd;
+    letter-spacing: 0px;
+    font-size: 30px;
+    font-weight:bolder;
+    padding-bottom: 0px;    
+}
+
+#celsius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+#celsius{
+    margin-top: 10px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+    color:white;
+}
+
+
+/* for chrome, safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+/* for Mozila firefox */
+/* input{
+    -moz-appearance: textfield;
+} */
+
+
+.icon{
+    flex: 1;
+    border-radius: 0px 0px 20px 0px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #2c87dd;
+    color: #fff;
+    
+   
+}
+
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #fff;
+    
+}
+
+.button button:hover{
+    background: #2c87dd;
+    color: #fff;
+}
+::placeholder {
+    color:white;
+    opacity: 1; /* Firefox */
+    border-radius: 0px 0px 0px 0px;
+    font-style: lighter;
+  }
+
+  
